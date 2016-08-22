@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 
-@Entity
+@Entity(name = "Beneficiary")
 public class Beneficiary {
 	@Id
 	@GeneratedValue
